@@ -1,0 +1,18 @@
+//to get list of all doctors
+http://localhost:5001/api/doctors
+
+
+//to add new doctor
+http://localhost:5001/api/addDoctor
+
+
+//to get doctor by id
+http://localhost:5001/api/doctors/1
+
+
+//to delete a doctor by id
+http://localhost:5001/api/doctor/delete/2
+
+
+//to update doctor by id
+http://localhost:5001/api/update/1

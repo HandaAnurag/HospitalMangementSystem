@@ -1,0 +1,7 @@
+ sqp_59a1077c111b7f307ddd5ebce7b4206fbc85cc1a
+
+mvn clean verify sonar:sonar \
+  -Dsonar.projectKey=Hospital-Management \
+  -Dsonar.projectName='Hospital Management' \
+  -Dsonar.host.url=http://localhost:9099 \
+  -Dsonar.token=sqp_59a1077c111b7f307ddd5ebce7b4206fbc85cc1a

@@ -1,0 +1,13 @@
+
+spring:
+  cloud:
+    discovery:
+      enabled: true
+
+doctor:
+  service:
+    url: http://doctor-service:5001
+
+patient:
+  service:
+    url: http://patient-service:5002

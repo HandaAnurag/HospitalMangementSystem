@@ -1,0 +1,18 @@
+//to get list of all patient
+http://localhost:5002/api/patients
+
+
+//to add new patient
+http://localhost:5002/api/addPatient
+
+
+//to get patient by id
+http://localhost:5002/api/patients/3
+
+
+//to delete a patient by id
+http://localhost:5002/api/patient/delete/2
+
+
+//to update patient by id
+http://localhost:5002/api/update/1
